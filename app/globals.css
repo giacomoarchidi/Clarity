@@ -1,0 +1,10 @@
+/* Fonts must be first to satisfy @import ordering */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+/* NOTE: keep import order to preserve exact visuals */
+@import "./styles/tokens.css";      /* Variables & theme */
+@import "./styles/base.css";        /* Resets & base */
+@import "./styles/focus.css";       /* Focus rings */
+@import "./styles/scrollbar.css";   /* Scrollbars */
+@import "./styles/animations.css";  /* Keyframes & helpers */
+@import "./styles/utilities.css";   /* Small utilities */
